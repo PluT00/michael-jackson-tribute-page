@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Michael Jackson tribute</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Michael Jackson tribute</title>
+</head>
+<body>
+  <main class="container p-3" id="main">
+    <header id="header">
+      <img src="https://www.sccpre.cat/mypng/detail/231-2317820_michael-jackson-style-vector-logo-dancing-michael-jackson.png" alt="Dancing Michael Jackson picture" class="round float-left" id="header-img">
+      <div class="row justify-content-end mx-auto">
+        <div id="title-div">
+          <h1 @click="easter" v-if="!egg" id="title">{{title}}</h1>
+          <h1 @click="easter" v-if="egg" id="title">{{easterEgg}}</h1>
+        </div>
+      </div>
+      <div class="row justify-content-end mx-auto">
+        <p id="title-date">
+        August 29, 1958 – June 25, 2009
+        </p>
+      </div>
+    </header>
+
+    <hr>
+
+    <div class="container-fluid mt-5">
+      <div class="row justify-content-center">
+        <figure class="col-sm-9" id="img-div" class="img-div">
+          <img src="https://i.pinimg.com/originals/af/98/2c/af982c66e7237f3439867d157a65532d.jpg" alt="Jackson 5 " class="img-fluid rounded d-block" id="image">
+          <figcaption class="text-center mt-2" id="img-caption">Jackson (center) as a member of the Jackson 5 band in 1972</figcaption>
+        </figure>
+      </div>
+      <div class="row justify-content-center mt-2">
+        <div class="col-sm-10">
+          <div class="row">
+            <div class="col">
+              <h2 class="article-heading">
+                Jackson 5
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              In 1964, Michael and Marlon joined the Jackson Brothers—a band formed by their father which included Jackie, Tito, and Jermaine—as backup musicians playing congas and tambourine. In 1965, Michael began sharing lead vocals with Jermaine, and the group's name was changed to the Jackson 5. The following year, the group won a talent show; Michael performed the dance to Robert Parker's 1965 song "Barefootin" and singing lead to The Temptations "My Girl".
+            </div>
+          </div>
+          <blockquote class="text-right mt-3">
+            <p class="mb-0">"48 Years Ago Today, 'I Want You Back' Kicked It All Off for the Jackson 5"</p>
+            <footer class="blockquote-footer">Bronson, Fred (November 15, 2017). <cite title="Source Title">Billboard.</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-sm-10">
+          <div class="row justify-content-end">
+            <div class="col-sm-9">
+              <h2 class="article-heading">
+                Bad
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Michaeljacksonphoto_drewcohen.JPG/170px-Michaeljacksonphoto_drewcohen.JPG" alt="" class="img-fluid rounded ariticle-pict">
+                <figcaption class="mr-5">
+                  <p class="sm-pict-cap">Jackson (center) performing in 1988</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-9">
+              <p>Jackson's album, Bad (1987), was highly anticipated, with the industry expecting another major success. It became the first album to produce five US number-one singles: "I Just Can't Stop Loving You", "Bad", "The Way You Make Me Feel", "Man in the Mirror", and "Dirty Diana". Another song, "Smooth Criminal", peaked at number seven. Bad won the 1988 Grammy for Best Engineered Recording – Non Classical and the 1990 Grammy Award for Best Music Video, Short Form for "Leave Me Alone". Jackson won an Award of Achievement at the American Music Awards in 1989 after Bad generated five number-one singles, became the first album to top the charts in 25 countries and the best-selling album worldwide in 1987 and 1988. By 2012, it had sold between 30 and 45 million copies worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <h4 class="list-cap col-sm-12 text-center">
+            Time line of Michael Jackson's life:
+          </h4>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-7">
+            <ul id="tribute-info">
+              <li><b>1958</b> - Born in Gary, Indiana, U.S.</li>
+              <li><b>1964</b> - comes into Jackson Brothers.</li>
+              <li><b>1970</b> - "I Want You Back" became the group's first song to reach number one the US Billboard Hot 100.</li>
+              <li><b>1979</b> - Jackson broke his nose during a dance routine. Releases fifth solo album "Off the Wall".</li>
+              <li><b>1981-1983</b> - Jackson recorded with Queen singer <a href="https://d2718nis.github.io/freddie-mercury-tribute-page/">Freddie Mercury</a>, recording demos of "State of Shock", "Victory" and "There Must Be More to Life Than This". </li>
+              <li><b>1983</b> - Jackson and his brothers partnered with PepsiCo in a $5 million promotional deal that broke records for a celebrity endorsement.</li>
+              <li><b>1991</b> - Jackson released his eighth album, Dangerous, co-produced with Teddy Riley.</li>
+              <li><b>1993</b> - Jackson proposed to Lisa Marie Presley over the phone. They married in La Vega, Dominican Republic in May 1994.</li>
+              <li><b>1996</b> - During the HIStory World Tour, in Sydney, Australia, Jackson married Debbie Rowe, a dermatology nurse, who was six months pregnant with his first child.</li>
+              <li><b>2002</b> - a film crew led by Martin Bashir followed Jackson for several months to make a documentary about him.</li>
+              <li><b>2009</b> - Dies at the age of 50.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col text-center">
+          <p id="tribute-text">Want to know more abount this person? Visit <a href="https://en.wikipedia.org/wiki/Michael_Jackson" target="_blank" id="tribute-link">Wikipedia</a> related article.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="container">
+      <div class="row justify-content-center">
+        <div class="col text-center">
+          <a href="https://github.com/PluT00" id="gitlink">August 2019 by PluT00</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
+  <script src='https://cdn.jsdelivr.net/npm/vue'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
